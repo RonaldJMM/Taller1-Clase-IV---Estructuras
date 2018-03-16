@@ -17,7 +17,8 @@
                    
                     <br><br>
                     <center>
-                        <a href="http://localhost/ProyectoI/public/index"><button type="button" class="btn btn-secondary">Inicio</button></a>
+                        
+                        <a href="http://localhost/ProyectoI/public/welcome.blade.php"><button type="button" class="btn btn-secondary">Inicio</button></a>
                         &nbsp;&nbsp;
                         <a href="http://localhost/ProyectoI/public/definicion"><button type="button" class="btn btn-secondary">Definición</button></a>
                         &nbsp;&nbsp;
@@ -26,7 +27,7 @@
                         <a href="http://localhost/ProyectoI/public/tipos"><button type="button" class="btn btn-secondary">Tipos</button></a>
                         &nbsp;&nbsp;
                         <a href="http://localhost/ProyectoI/public/medios"><button type="button" class="btn btn-secondary">Medios</button></a>
-
+                           
                     </center>
                     <br>
                     
@@ -43,9 +44,9 @@
                       <form action="{{ url('formulario')}}" method="post">
                         {{csrf_field()}}
                         NOMBRE:
-                        <input type="text" name="nombre">
+                        <input type="text" name="nombre">,<br>;
                         APELLIDO: 
-                        <input type="text" name="apellido">
+                        <input type="text" name="apellido">,<br>;
                         EDAD: 
                         <input type="text" name="edad">
                         TELEFONO: 
